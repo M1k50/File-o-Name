@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{33035417-37FA-480F-B277-363B928CAD8D}</ProjectGuid>
+    <ProjectGuid>{17136A7F-23FE-4230-972F-A0DD14559ED7}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>FileNamer</RootNamespace>
-    <AssemblyName>FileNamer</AssemblyName>
+    <RootNamespace>File_O_Name</RootNamespace>
+    <AssemblyName>File-O-Name</AssemblyName>
     <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -46,14 +46,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="File-O-Name.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="File-O-Name.Designer.cs">
+      <DependentUpon>File-O-Name.cs</DependentUpon>
     </Compile>
-    <Compile Include="Program.cs" />
+    <Compile Include="FileOName.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="File-O-Name.resx">
+      <DependentUpon>File-O-Name.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

@@ -4,9 +4,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace FileNamer
+namespace File_O_Name
 {
-    static class Program
+    static class FileOName
     {
         /// <summary>
         /// The main entry point for the application.

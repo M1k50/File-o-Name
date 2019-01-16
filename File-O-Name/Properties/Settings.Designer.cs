@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace FileNamer.Properties
+namespace File_O_Name.Properties
 {
 
 
